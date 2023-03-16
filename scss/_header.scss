@@ -6,10 +6,6 @@
     background-color: $background;
 }
 
-
-
-
-
 header {
     @include flexCenter(column, rgb(30, 30, 75));
     background:lightblue;
