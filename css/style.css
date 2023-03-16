@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(30, 30, 75);
+  background: lightblue;
+  height: 100vh;
+  color: darkcyan;
+}
+header button {
+  background-color: rgb(12, 134, 38);
+  color: pink;
+}
+header button:hover {
+  background-color: darkgoldenrod;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: yellow;
+}

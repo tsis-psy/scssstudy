@@ -1,0 +1,27 @@
+@mixin flexCenter($direction, $background) {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    flex-direction: $direction;
+    background-color: $background;
+}
+
+
+
+
+
+header {
+    @include flexCenter(column, rgb(30, 30, 75));
+    background:lightblue;
+    height: 100vh;
+    color: $primaryFontColor;
+
+    button {
+        background-color: $primaryBtn;
+        &:hover {
+            background-color: darkgoldenrod;
+            // content: "this is kwangsoo";
+        }
+        color: $secondaryFontColor;
+    }
+}
